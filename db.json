@@ -1,0 +1,21 @@
+
+    {
+        "produocts":[
+            {
+        "id":"1",
+        "title":"Black t-shirt",
+        "price":"17$",
+        "category":"Men",
+        "description":"",
+        "image":""
+    },
+            {
+        "id":"2",
+        "title":"Black t-shirt",
+        "price":"17$",
+        "category":"Men",
+        "description":"",
+        "image":""
+    }
+]
+    }

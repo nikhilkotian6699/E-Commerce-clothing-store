@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> E-commerce clothes website </title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+<section id="header">
+    <a href="#"><img src="" class="logo" alt=""></a>
+<div>
+    <ul id="navbar">   
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
+    <a href="#" id="close"><i class="far fa-times"></i></a>
+    </ul>
+
+</div>
+
+<div id="search-container" class="search">
+    <input type="text" id="productName" placeholder="Search by Name">
+    <input type="number" id="minPrice" placeholder="Min Price">
+    <input type="number" id="maxPrice" placeholder="Max Price">
+
+    <select id="category" class="">
+      <option value="">Select Category</option>
+      <option value="category1">Men</option>
+      <option value="category2">women</option>
+      <option value="category2">kids</option>
+
+    </select>
+    <button class="normal" onclick="searchProducts()">Search</button>
+  </div>
+
+
+
+<div id="mobile">
+
+<a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+<i id="bar" class="fas fa-outdent"> </i>
+</div>
+
+</section>
+
+<section id="Home"> 
+<h4></h4><br>
+<h3>something fashion</h3>
+<h1>wear what you like!</h1>
+<p>explore your new favourite collections </p>
+<button>SHOP NOW</button>
+</section>
+
+<section id="featured" class="section-p1">
+  <div class="fe-box">
+    <img src="imgs/" alt="">
+    <h6>free shipping</h6>
+   </div>
+
+<div class="fe-box">
+    <img src="imgs/" alt="">
+    <h6>lllllllllll</h6>
+    </div>
+
+    <div class="fe-box">
+        <img src="imgs/" alt="">
+        <h6>kkkkkkkkkkk</h6>
+        </div>
+
+</section>
+
+<section id="product1" class="section-p1">
+    <h2>Featured products</h2>
+<p>jkj</p>
+<div class="first-container">
+    <div class="first">
+        <img src="imgs/men/menblack.jpg" alt="">
+        <div class="des">
+            <span>Zara</span>
+            <h5>Black Coton T-shirt</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>14.45$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/men/men3.jpg" alt="">
+        <div class="des">
+            <span>Zara</span>
+            <h5>Brown Coton blouse</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>34.98$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/women/womenwhite.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>White Coton T-shirt</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>17.45$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/men/menpink.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>pink T-shirt </h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>17$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/kids/kids1.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>dddddddd</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>20$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/men/men5.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>black jacket</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>29.99$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/women/women11.jpg" alt="">
+        <div class="des">
+            <span>Zara</span>
+            <h5> jacket</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>31$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/men/men6.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>wool brown coat</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>89.99$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+
+</div>
+</section>
+
+
+<section id="banner" class="section-m1">
+<h4>New season</h4>
+<h2><span> up to </span> 50% off </h2>
+<button class="normal">Explore more</button>
+
+
+</section>
+
+
+<section id="product1" class="section-p1">
+    <h2>New Arrivals</h2>
+<p>new items that you can't miss out!</p>
+<div class="first-container">
+    <div class="first">
+        <img src="imgs/women/women12.jpg" alt="">
+        <div class="des">
+            <span>Zara</span>
+            <h5>Red blouse</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>29.49$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/women/women44.jpg" alt="">
+        <div class="des">
+            <span>Zara</span>
+            <h5>Brown dress</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>30.45$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/women/women77.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>White Coton T-shirt</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>19.99$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/kids/kid11.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>White dress</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>14.55$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/kids/kid7.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>black jacket</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>20.45$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/women/women66.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>White shirt</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>19.98$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/women/women22.jpg" alt="">
+        <div class="des">
+            <span>Zara</span>
+            <h5> white t-shirt</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>22.55$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+    <div class="first">
+        <img src="imgs/women/women33.jpg" alt="">
+        <div class="des">
+            <span>H&M</span>
+            <h5>White dress</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>34.49$</h4>
+        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+    </div>
+
+
+</div>
+</section>
+
+
+<section id="sm-banner" class="section-p1">
+<div class="banner-box">
+<h4>rrrrrr</h4>
+<h2>buy 1 get 1 free</h2>
+<span>for everyday </span>
+<button class="white">Learn more</button>
+</div>
+<div class="banner-box banner-box2">
+    <h4>Winter ready!</h4>
+    <h2>New season</h2>
+    <span>at </span>
+    <button class="white">Collection</button>
+    </div>
+
+</section>
+
+
+<section id="banner3">
+    <div class="banner-box">
+        <h2>New season</h2>
+        <h3>iiiiiiiii</h3>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <h2>New season</h2>
+            <h3>iiiiiiiii</h3>
+            </div>
+
+            <div class="banner-box banner-box3">
+                <h2>New season</h2>
+                <h3>iiiiiiiii</h3>
+                </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+<img class="logo" src="logo" alt="">
+<h4>Contact</h4>
+<p><strong>Address: </strong>Iraq, Baghdad</p>
+<p><strong>Hours: </strong>08:00am - 11:00pm, Sun-Thu</p>
+<div class="follow">
+<h4>Follow us</h4>
+<div class="icon">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+</div>
+</div>
+    </div>
+
+    <div class="col">
+<h4>About</h4>
+<a href="#">About us</a>
+<a href="#">Delivery Information</a>
+<a href="#">Privacy Policy</a>
+<a href="#">Term & conditions</a>
+<a href="#">Contact us</a>
+
+    </div>
+
+    <div class="col">
+        <h4>My account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View cart</a>
+        <a href="#">My wishlist</a>
+        <a href="#">Track my order</a>
+        <a href="#">Help</a>
+        
+            </div>
+
+            <div class="col pay">
+                <h4>Payment methods</h4>
+                <p>Secured Payment Gateways</p>
+                <img src="imgs/zain2.jpg" alt="">
+                
+                    </div>
+
+                    <div class="copywrite">
+                        <p>All right reserved, 2023, Ola Jameel </p>
+                    </div>
+</footer>
+
+
+<section class="search">
+<form>
+    <i class="fas fa-search"></i>
+</form>
+</section> 
+
+
+ <script src="script.js"></script>
+    </body>
+
+</html> 
